@@ -1,0 +1,445 @@
+<!doctype html>
+<html lang="pt-br">
+<!-- Mirrored from 5studios.net/themes/dashcore/developers.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 May 2020 19:15:18 GMT -->
+
+<head>
+    <meta charset="utf-8">
+    <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge" /><![endif]-->
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="apple-touch-icon" href="apple-touch-icon.html">
+    <link rel="icon" href="favicon.ico">
+    <link href="../../../fonts.googleapis.com/css2c38.css?family=Poppins:100,300,400,700,900" rel="stylesheet">
+    <link href="../../../fonts.googleapis.com/css8f23.css?family=Caveat" rel="stylesheet">
+    <title>Fala Dev - Plataforma para Desenvolvedores</title>
+
+    <link rel="stylesheet" href="css/vendor.min.css">
+    <link rel="stylesheet" href="css/dashcore.min.css">
+    <!-- endinject -->
+</head>
+
+<body>
+    <!--[if lt IE 8]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+    <!-- Making stripe menu -->
+    <nav class="st-nav navbar main-nav navigation fixed-top" id="main-nav">
+        <div class="container">
+            <ul class="st-nav-menu nav navbar-nav">
+                <li class="st-nav-section nav-item">
+                    <a href="#main" class="navbar-brand"><img src="img/logoteste.png" alt="Dashcore" class="logo logo-sticky d-block d-md-none"> <img src="img/logoteste.png" alt="Dashcore" class="logo d-none d-md-block"></a>
+                </li>
+                <li class="st-nav-section st-nav-primary nav-item"><a class="st-root-link nav-link" href="index.html">Inicio </a><a class="st-root-link item-products st-has-dropdown nav-link" data-dropdown="pages">Paginas </a>
+                    <li class="st-nav-section st-nav-primary nav-item"><a class="st-root-link nav-link" href="blog.html">Blog </a></li>
+                    <li class="st-nav-section st-nav-secondary nav-item"><a class="btn btn-rounded btn-outline mr-3 px-3" href="login.html" target="_blank"><i class="fas fa-sign-in-alt d-none d-md-inline mr-md-0 mr-lg-2"></i> <span class="d-md-none d-lg-inline">Login</span> </a><a class="btn btn-rounded btn-solid px-3"
+                            href="signup.html" target="_blank"><i class="fas fa-user-plus d-none d-md-inline mr-md-0 mr-lg-2"></i> <span class="d-md-none d-lg-inline">Registrar</span></a></li>
+
+
+                    <!-- Mobile Navigation -->
+                    <li class="st-nav-section st-nav-mobile nav-item"><button class="st-root-link navbar-toggler" type="button"><span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button>
+                        <div class="st-popup">
+                            <div class="st-popup-container"><a class="st-popup-close-button">Fechar</a>
+                                <div class="st-dropdown-content-group">
+                                    <h4 class="text-uppercase regular">Paginas</h4><a class="regular text-primary" href="about.html"><i class="far fa-building mr-2"></i> Sobre </a><a class="regular text-success" href="contact.html"><i class="far fa-envelope mr-2"></i> Contato </a></a>
+                                    <a class="regular text-info" href="faqs.html"><i class="far fa-question-circle mr-2"></i> FAQs</a>
+                                </div>
+                                <div class="st-dropdown-content-group bg-light b-t"><a href="login.html">Login <i class="fas fa-arrow-right"></i></a></div>
+                                <div class="st-dropdown-content-group bg-light b-t"><a href="register.html">Registrar <i class="fas fa-arrow-right"></i></a></div>
+                            </div>
+                        </div>
+                    </li>
+            </ul>
+        </div>
+        <div class="st-dropdown-root">
+            <div class="st-dropdown-bg">
+                <div class="st-alt-bg"></div>
+            </div>
+            <div class="st-dropdown-arrow"></div>
+            <div class="st-dropdown-container">
+                <div class="st-dropdown-section" data-dropdown="pages">
+                    <div class="st-dropdown-content">
+                        <div class="st-dropdown-content-group">
+                            <div class="mb-4">
+                                <!--h3 class="text-darker light text-nowrap"><span class="bold regular">Páginas</span> úteis</h3>
+                                <p class="text-secondary mt-0">Talvez aqui você encontre tudo que precisa</p-->
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <ul>
+                                        <li>
+                                            <h4 class="text-uppercase regular">Extra</h4>
+                                        </li>
+                                        <li><a target="_blank" href="pricing.html">Categorias</a></li>
+                                        <li><a target="_blank" href="terms.html">Termos de Uso</a></li>
+                                        <li><a target="_blank" href="faqs.html">FAQ</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="st-dropdown-content-group"><a class="dropdown-item bold" href="about.html"><i class="far fa-building icon"></i> Sobre </a><a class="dropdown-item bold" href="contact.html"><i class="far fa-envelope icon"></i> Contato </a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <!-- ./Page header -->
+        <header class="header section parallax image-background overlay gradient gradient-purple-navy alpha-8 text-contrast" style="background-image: url('img/bg/grid.jpg')">
+            <div class="container overflow-hidden">
+                <div class="row">
+                    <div class="col-md-8">
+                        <p class="lead bold" style="font-size: 38px;">Fala Dev!</p>
+                        <h1 class="display-4 text-contrast light">Aprenda a programar</h1>
+                        <h1 class="text-contrast"><span class="typed bold display-4 display-md-3" data-strings='["Python", "PHP", "MySQL", "Javascript"]'></span></h1>
+                        <nav class="nav mt-5"><a href="#" class="nav-link btn btn btn-rounded btn-contrast btn-lg px-5 bold">Quero aprender</a></nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- ./ New Integration API -->
+        <section class="section bg-darker">
+            <div class="container text-center pt-4 pb-7">
+                <p class="text-contrast">Nós orgulhosamente anunciamos a Fala Dev, uma plataforma direcionada a desenvolvedores!</p>
+            </div>
+        </section>
+        <!-- ./Integration API -->
+        <section class="section mt-n6">
+            <div class="container pt-0">
+                <div class="shadow bg-contrast p-4 rounded">
+                    <div class="row gap-y text-center text-md-left">
+                        <div class="col-md-4 py-4 px-5 d-flex flex-column b-md-r">
+                            <a href="javascript:;" class="text-darker">
+                                <h4 class="bold mr-3">Linguagens de Programação</h4>
+                            </a>
+                            <p class="mt-4">Aprenda sobre Python, Java, C, PHP e muitas outras linguagens de forma fácil e prática.</p><a href="javascript:;" class="d-block d-md-flex align-items-center mt-auto">Saiba mais <i class="fas fa-long-arrow-alt-right ml-3"></i></a></div>
+                        <div class="col-md-4 py-4 px-5 d-flex flex-column b-md-r">
+                            <a href="javascript:;" class="text-darker">
+                                <h4 class="bold mr-3">Bibliotecas & <br>Plugins</h4>
+                            </a>
+                            <p class="mt-4">Aprenda como distribuir e acrescentar melhorias nos seus projetos utilizando bibliotecas e plugins.</p><a href="javascript:;" class="d-block d-md-flex align-items-center mt-auto">Saiba mais <i class="fas fa-long-arrow-alt-right ml-3"></i></a></div>
+                        <div class="col-md-4 py-4 px-5 d-flex flex-column">
+                            <a href="javascript:;" class="text-darker">
+                                <h4 class="bold mr-3">API, REST &<br>RESTFUL</h4>
+                            </a>
+                            <p class="mt-4">Aprenda como melhorar a integração dos seus projetos com rotinas e padrões baseadas na WEB.</p><a href="javascript:;" class="d-block d-md-flex align-items-center mt-auto">Saiba mais <i class="fas fa-long-arrow-alt-right ml-3"></i></a></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ./Counters -->
+        <section class="bg-contrast edge bottom-right">
+            <div class="container">
+                <div class="row align-items-center text-center text-lg-left">
+                    <div class="col-12 col-md-7 col-lg-6 mr-lg-auto text-center text-md-left"><i data-feather="activity" width="36" height="36" class="stroke-primary"></i>
+                        <p class="small text-primary bold">Status Incriveis</p>
+                        <h2 class="bold">Tenha o melhor de nós, fazendo o melhor para você!</h2>
+                        <p class="text-secondary">Nosso objetivo é unir a comunidade de desenvolvedores, criando um âmbiente de compartilhamento de conhecimento, experiëncias, dicas e qualquer conteúdo que possa ajudar a comunidade e a outras pessoas!</p>
+                    </div>
+                    <div class="col-12 col-md-5 col-lg-5">
+                        <div class="row no-gutters">
+                            <div class="col-6 mb-3 pr-3">
+                                <div class="rounded border shadow-box shadow-hover p-2 p-sm-3 d-flex align-items-center flex-wrap bg-contrast"><i data-feather="user" width="36" height="36" class="mr-4 stroke-secondary"></i>
+                                    <div class="text-left">
+                                        <p class="counter font-md bold m-0 text-info">954</p>
+                                        <p class="m-0">Usuarios</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 mb-3">
+                                <div class="rounded border shadow-box shadow-hover p-2 p-sm-3 d-flex align-items-center flex-wrap bg-contrast"><i data-feather="download-cloud" width="36" height="36" class="mr-4 stroke-secondary"></i>
+                                    <div class="text-left">
+                                        <p class="counter font-md bold m-0 text-info">37</p>
+                                        <p class="m-0">Downloads</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 pr-3">
+                                <div class="rounded border shadow-box shadow-hover p-2 p-sm-3 d-flex align-items-center flex-wrap bg-contrast"><i data-feather="box" width="36" height="36" class="mr-4 stroke-secondary"></i>
+                                    <div class="text-left">
+                                        <p class="counter font-md bold m-0 text-info">19</p>
+                                        <p class="m-0">Plugins</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="rounded border shadow-box shadow-hover p-2 p-sm-3 d-flex align-items-center flex-wrap bg-primary text-contrast"><i data-feather="star" width="36" height="36" class="mr-4 stroke-contrast"></i>
+                                    <div class="text-left">
+                                        <p class="counter font-md bold m-0">31</p>
+                                        <p class="m-0">Projetos</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ./Bring to life - Swiper -->
+        <section class="section bg-light">
+            <div class="container bring-to-front">
+                <div class="row gap-y align-items-center">
+                    <div class="col-md-6">
+                        <div class="rounded bg-primary-gradient shadow">
+                            <div class="d-flex flex-column align-items-center py-3"><img src="img/bg/asset-1.svg" class="img-responsive w-50" alt=""></div>
+                        </div>
+                        <div class="rounded shadow-box bg-contrast mt-3">
+                            <div class="media align-items-center px-3"><i data-feather="bar-chart" class="stroke-primary mr-3" width="36" height="36"></i>
+                                <div class="media-body my-3 pl-3 b-l">
+                                    <p class="bold text-primary my-0">Aprenda quando puder</p>
+                                    <p class="my-0 text-secondary">Nosso objetivo é manter uma comunidade ativa, podendo assim sempre disponibilizar novos conteúdos.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="rounded shadow-box bg-contrast mt-3">
+                            <div class="media align-items-center px-3"><i data-feather="smartphone" width="36" height="36" class="stroke-primary mr-3"></i>
+                                <div class="media-body my-3 pl-3 b-l">
+                                    <p class="bold text-primary my-0">Veja de onde estiver</p>
+                                    <p class="my-0 text-secondary">Todo o conteúdo compartilhado na plataforma é disponibilizado online e 100% responsivo. </p>
+                                    <hr class="my-3">
+                                    <nav id="sw-nav-1" class="nav nav-tabs tabs-clean border-bottom-0"><a href="javascript:;" class="nav-item nav-link pl-md-0 py-0 d-flex flex-column align-items-center border-bottom-0 active" data-step="1"><i data-feather="mail" class="icon"></i> <span class="d-none small">Inbox</span> </a>
+                                        <a href="javascript:;" class="nav-item nav-link py-0 d-flex flex-column align-items-center border-bottom-0" data-step="2"><i data-feather="calendar" class="icon"></i> <span class="d-none small">Calendar</span> </a>
+                                        <a href="javascript:;" class="nav-item nav-link py-0 d-flex flex-column align-items-center border-bottom-0" data-step="3"><i data-feather="file" class="icon"></i> <span class="d-none small">Invoice</span></a>
+                                    </nav>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 ml-md-auto text-center text-md-left"><span class="rounded-pill shadow-box badge badge-info bold py-2 px-4">Simples e Transparente</span>
+                        <h2 class="mt-3">Dê vida ao seu projeto</h2>
+                        <p class="text-secondary">Aprimore suas técnicas, seu conhecimento e sua maneira de desenvolver com nossas dicas, modelos e métodos!</p>
+                        <hr>
+                        <div class="swiper-container" data-sw-navigation="#sw-nav-1" data-sw-navigation-active="active">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <figure class="shadow-box"><img src="img/screens/dash/inbox.png" alt="" class="img-responsive rounded"></figure>
+                                    <p class="small text-center text-danger">Clean inbox UI design</p>
+                                </div>
+                                <div class="swiper-slide">
+                                    <figure class="shadow-box"><img src="img/screens/dash/calendar.png" alt="" class="img-responsive rounded"></figure>
+                                    <p class="small text-center text-danger">Outstanding calendar UI design</p>
+                                </div>
+                                <div class="swiper-slide">
+                                    <figure class="shadow-box"><img src="img/screens/dash/invoice.png" alt="" class="img-responsive rounded"></figure>
+                                    <p class="small text-center text-danger">Draft purchases with the invoice feature</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ./Developers - Code snippets -->
+        <section class="section b-b b-t bg-light">
+            <div class="container">
+                <div class="section-heading text-center"><i data-feather="box" width="36" height="36" class="stroke-primary"></i>
+                    <h2>Desenvolvimento</h2>
+                    <p class="lead text-secondary">Nossa plataforma conta com uma ferramenta de desenvolvimento que fará com que seu aprendizado e leitura fiquem mais lúdicas e explicativas.</p>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 col-lg-3 ml-lg-auto order-md-2">
+                        <nav id="sw-nav-developers" class="nav flex-md-column justify-content-between justify-content-md-start nav-pills nav-pills-light nav-fill"><a class="nav-item nav-link bold text-md-left active" href="#" data-step="1"><i class="icon fas fa-code"></i> HTML </a> <a class="nav-item nav-link bold text-md-left" href="#" data-step="2"><i class="icon fab fa-sass"></i> SASS </a>                            <a class="nav-item nav-link bold text-md-left" href="#" data-step="3"><i class="icon fas fa-retweet fa-rotate-90"></i> Ajax </a> <a class="nav-item nav-link bold text-md-left" href="#" data-step="4"><i class="icon fas fa-exclamation-triangle"></i> Form </a></nav>
+                        <hr class="mt-5"><a href="javascript:;" class="nav-link text-primary">Todos os recursos <i class="icon fas fa-long-arrow-alt-right"></i></a></div>
+                    <div class="col-md-8">
+                        <div class="swiper-container mt-4 mt-md-0" data-sw-navigation="#sw-nav-developers">
+                            <div class="swiper-wrapper line-numbers">
+                                <div class="swiper-slide"><pre class="language-html">                            <code>
+&lt;header class="main-header"&gt;
+    ...
+&lt;/header&gt;
+
+&lt;div class="main-body"&gt;
+    &lt;nav class="side-nav"&gt;
+        ...
+    &lt;/div&gt;
+
+    &lt;main&gt;
+        ...
+    &lt;/main&gt;
+
+    &lt;aside class="quick-view"&gt;
+        ...
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;footer class="main-footer"&gt;
+    ...
+&lt;/footer&gt;</code>
+            </pre></div>
+                                <div class="swiper-slide"><pre class="language-javascript">                            <code>
+var gulp = require('gulp');
+var sass = require('gulp-sass');
+var autoprefixer = require('gulp-autoprefixer');
+
+gulp.task('sass', function () {
+    return gulp
+        .src('../sass/*.scss')
+        .pipe(sass({
+            includePaths: ['./bower_components']
+        }))
+        .pipe(autoprefixer({
+            browsers: ['last 2 version', '> 5%']
+        }))
+        .pipe(gulp.dest('./css'));
+});
+
+gulp.task('default', ['scss']);</code></pre></div>
+                                <div class="swiper-slide"><pre class="language-javascript">                            <code>
+var apiUrl = 'https://api.5studios.net/';
+
+this.getLoggedUser = function() {
+    return $.ajax({
+        url: apiUrl + 'user/login?inc=name,location,email,picture',
+        dataType: 'json'
+    });
+};
+
+this.getPendingTasks = function () {
+    return $.getJSON(apiUrl + 'data/tasks/pending', function() {
+        console.log("Tasks loaded");
+    });
+};</code>
+</pre></div>
+                                <div class="swiper-slide"><pre class="language-javascript">                            <code>
+$("#register-form").validate({
+  rules: {
+    username: {
+      required: true,
+      minLength: 2,
+      remote: "register.php"
+    }
+  },
+  messages: {
+    username: {
+      required: "Enter your username",
+      minLength: "At least 2 characters are necessary",
+      remote: String.format("The name {0} is already in use")
+    }
+  }
+});</code></pre></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ./Integration tools -->
+        <section class="section">
+            <div class="shape-wrapper"><img src="img/shps/shape-2.svg" class="shape-right" alt="..."></div>
+            <div class="container bring-to-front">
+                <div class="row gap-y align-items-center">
+                    <div class="col-12 col-md-5 col-lg-5 mr-md-auto text-center text-lg-left"><i data-feather="box" width="36" height="36" class="stroke-primary"></i>
+                        <p class="small text-primary bold">APIS Mais acessadas</p>
+                        <h2 class="bold">Integração fáceis para suas aplicações</h2>
+                        <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis dolores dolorum, error est excepturi exercitationem hic iusto minus nam officia optio quasi tempore voluptatibus. Aut dolore in nostrum quae voluptatem!</p>
+                    </div>
+                    <div class="col-12 col-md-7 col-lg-6">
+                        <div class="row gap-y">
+                            <div class="col-6 col-sm-5 col-md-6 col-lg-5 mt-6 ml-lg-auto">
+                                <div class="bg-primary-gradient rounded text-contrast p-2 p-sm-4 shadow text-center" data-aos="fade-up"><img src="img/logos/2.svg" class="img-responsive op-8 px-0 px-sm-4" alt="...">
+                                    <p class="bold mt-5">jQuery</p>
+                                    <p class="op-5 small">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p><a href="javascript:;" class="btn btn-rounded btn-contrast mt-4"><i class="d-inline-block d-sm-none fas fa-long-arrow-alt-right"></i> <span class="d-none d-sm-inline-block">Integrar</span></a></div>
+                            </div>
+                            <div class="col-6 col-sm-5 col-md-6 col-lg-5 mr-lg-auto">
+                                <div class="bg-info-gradient rounded text-contrast p-2 p-sm-4 shadow text-center" data-aos="fade-up"><img src="img/logos/1.svg" class="img-responsive op-8 px-0 px-sm-4" alt="...">
+                                    <p class="bold mt-5">Codebase</p>
+                                    <p class="op-5 small">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p><a href="javascript:;" class="btn btn-rounded btn-contrast mt-4"><i class="d-inline-block d-sm-none fas fa-long-arrow-alt-right"></i> <span class="d-none d-sm-inline-block">Integrar</span></a></div>
+                            </div>
+                            <div class="col-6 col-sm-5 col-md-6 col-lg-5 ml-lg-auto">
+                                <div class="bg-danger-gradient rounded text-contrast p-2 p-sm-4 shadow text-center" data-aos="fade-up"><img src="img/logos/3.svg" class="img-responsive op-8 px-0 px-sm-4" alt="...">
+                                    <p class="bold mt-5">OpenCart</p>
+                                    <p class="op-5 small">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p><a href="javascript:;" class="btn btn-rounded btn-contrast mt-4"><i class="d-inline-block d-sm-none fas fa-long-arrow-alt-right"></i> <span class="d-none d-sm-inline-block">Integrar</span></a></div>
+                            </div>
+                            <div class="col-6 col-sm-5 col-md-6 col-lg-5 mt-n6 mr-lg-auto">
+                                <div class="bg-success-gradient rounded text-contrast p-2 p-sm-4 shadow text-center" data-aos="fade-up"><img src="img/logos/4.svg" class="img-responsive op-8 px-0 px-sm-4" alt="...">
+                                    <p class="bold mt-5">Morpheus</p>
+                                    <p class="op-5 small">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p><a href="javascript:;" class="btn btn-rounded btn-contrast mt-4"><i class="d-inline-block d-sm-none fas fa-long-arrow-alt-right"></i> <span class="d-none d-sm-inline-block">Integrar</span></a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ./Brands -->
+        <section class="section bg-light">
+            <div class="container">
+                <h4 class="bold text-center mb-5 text-secondary">Empresas que apoiam esse projeto</h4>
+                <div class="row gap-y">
+                    <div class="col-md-6 col-xs-6 col-6 px-md-6"><img src="img/serra.png" alt="" class="img-responsive mx-auto op-7" style="max-height: 90px;"></div>
+                    <div class="col-md-6 col-xs-6 col-6 px-md-6"><img src="img/universidade.png" alt="" class="img-responsive mx-auto op-7" style="max-height: 70px;"></div>
+                    <!--div class="col-md-3 col-xs-4 col-6 px-md-5"><img src="img/logos/3.png" alt="" class="img-responsive mx-auto op-7" style="max-height: 70px;"></div-->
+                    <!--div class="col-md-3 col-xs-4 col-6 px-md-5"><img src="img/logos/4.png" alt="" class="img-responsive mx-auto op-7" style="max-height: 70px;"></div-->
+                </div>
+            </div>
+        </section>
+        <!-- ./Join - As Developer/Designer -->
+        <section class="section bg-light">
+            <div class="container bring-to-front py-0">
+                <div class="shadow bg-contrast p-5 rounded">
+                    <div class="row gap-y align-items-center text-center text-lg-left">
+                        <div class="col-12 col-md-6 py-4 px-5 b-md-r"><i data-feather="star" width="36" height="36" class="stroke-primary"></i>
+                            <a href="javascript:;" class="mt-4 text-primary d-flex align-items-center">
+                                <h4 class="mr-3">Entrar como Usuário</h4><i class="fas fa-long-arrow-alt-right"></i></a>
+                            <p class="mt-4">Você desenvolvedor, que gostaria de participar desse projeto, somente visualizando e compartilhando as publicações. Seja Bem-Vindo!</p>
+                        </div>
+                        <div class="col-12 col-md-6 py-4 px-5"><i data-feather="code" width="36" height="36" class="stroke-info"></i>
+                            <a href="javascript:;" class="mt-4 text-info d-flex align-items-center">
+                                <h4 class="mr-3">Entrar como Desenvolvedor</h4><i class="fas fa-long-arrow-alt-right"></i></a>
+                            <p class="mt-4">Você desenvolvedor, que gostaria de apoiar este projeto com seu trabalho, queira contruibuir para a comunidade com conteúdos relacionados a sua profissão, estudos, entre outros... Nós queremos você!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ./CTA - Create Account -->
+        <section class="section bg-contrast edge top-left b-b">
+            <div class="container pt-5">
+                <div class="d-flex align-items-center flex-column flex-md-row">
+                    <div class="text-center text-md-left">
+                        <p class="light mb-0 text-primary lead">Quer ajudar financeiramente o projeto?</p>
+                        <h2 class="mt-0">Você pode doar para a plataforma</h2>
+                    </div><a href="register.html" class="btn btn-primary btn-rounded mt-3 mt-md-0 ml-md-auto">Quero contribuir financeiramente</a></div>
+            </div>
+        </section>
+        <!-- Footer Serra -->
+        <footer class="footer" style="background-color:#1f1f1f !important">
+            <div class="footer-copyright footer-copyright-style-2" style="padding: 24px; ">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div>
+                            <div class="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".3s">
+
+                                <a href="https://www.serradev.com.br" target="blank">
+                                    <img src="img/logoteste.png" height="50px" width="240px " alt="Agradecemos a Breno cocheto, etc... pela contribuição no projeto">
+                                </a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr style="margin:0px!important; background: #aee8f92b !important; border-top: 0px !important;">
+            <div class="copy-right_text" style="background-color:#1f1f1f;">
+                <div class="container">
+                    <div class="footer_border"></div>
+                    <div class="row" style="text-align: center;">
+                        <div class="col-xl-8 m-auto" style="color:white;padding: 22px;">
+                            <span style="font-size: 1rem">© <a href="https://serradev.com.br/" target="_blank" style="color:white;"><strong>Fala Dev!</strong></a> Copyright 2020. Todos os
+							direitos reservados.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- End Footer Serra -->
+    </main>
+    <!-- themeforest:js -->
+    <script src="js/lib.min.js"></script>
+    <script src="js/dashcore.min.js"></script>
+    <!-- endinject -->
+</body>
+<!-- Mirrored from 5studios.net/themes/dashcore/developers.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 May 2020 19:15:50 GMT -->
+
+</html>

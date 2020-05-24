@@ -1,0 +1,500 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge" /><![endif]-->
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="apple-touch-icon" href="apple-touch-icon.html">
+    <link rel="icon" href="favicon.ico">
+    <link href="../../../fonts.googleapis.com/css2c38.css?family=Poppins:100,300,400,700,900" rel="stylesheet">
+    <link href="../../../fonts.googleapis.com/css8f23.css?family=Caveat" rel="stylesheet">
+    <title>Dashcore - Premium Software & Startup HTML</title>
+
+    <link rel="stylesheet" href="css/vendor.min.css">
+    <link rel="stylesheet" href="css/dashcore.min.css">
+    <!-- endinject -->
+</head>
+
+<body>
+    <!--[if lt IE 8]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+    <!-- Making stripe menu -->
+    <nav class="st-nav navbar main-nav navigation fixed-top" id="main-nav">
+        <div class="container">
+            <ul class="st-nav-menu nav navbar-nav">
+                <li class="st-nav-section nav-item">
+                    <a href="#main" class="navbar-brand"><img src="img/logoteste.png" alt="Dashcore" class="logo logo-sticky d-block d-md-none"> <img src="img/logoteste.png" alt="Dashcore" class="logo d-none d-md-block"></a>
+                </li>
+                <li class="st-nav-section st-nav-primary nav-item"><a class="st-root-link nav-link" href="index.html">Inicio </a><a class="st-root-link item-products st-has-dropdown nav-link" data-dropdown="pages">Paginas </a>
+                    <li class="st-nav-section st-nav-primary nav-item"><a class="st-root-link nav-link" href="blog.html">Blog </a></li>
+                    <li class="st-nav-section st-nav-secondary nav-item"><a class="btn btn-rounded btn-outline mr-3 px-3" href="login.html" target="_blank"><i class="fas fa-sign-in-alt d-none d-md-inline mr-md-0 mr-lg-2"></i> <span class="d-md-none d-lg-inline">Login</span> </a><a class="btn btn-rounded btn-solid px-3"
+                            href="signup.html" target="_blank"><i class="fas fa-user-plus d-none d-md-inline mr-md-0 mr-lg-2"></i> <span class="d-md-none d-lg-inline">Registrar</span></a></li>
+
+
+                    <!-- Mobile Navigation -->
+                    <li class="st-nav-section st-nav-mobile nav-item"><button class="st-root-link navbar-toggler" type="button"><span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button>
+                        <div class="st-popup">
+                            <div class="st-popup-container"><a class="st-popup-close-button">Fechar</a>
+                                <div class="st-dropdown-content-group">
+                                    <h4 class="text-uppercase regular">Paginas</h4><a class="regular text-primary" href="about.html"><i class="far fa-building mr-2"></i> Sobre </a><a class="regular text-success" href="contact.html"><i class="far fa-envelope mr-2"></i> Contato </a></a>
+                                    <a class="regular text-info" href="faqs.html"><i class="far fa-question-circle mr-2"></i> FAQs</a>
+                                </div>
+                                <div class="st-dropdown-content-group bg-light b-t"><a href="login.html">Login <i class="fas fa-arrow-right"></i></a></div>
+                                <div class="st-dropdown-content-group bg-light b-t"><a href="register.html">Registrar <i class="fas fa-arrow-right"></i></a></div>
+                            </div>
+                        </div>
+                    </li>
+            </ul>
+        </div>
+        <div class="st-dropdown-root">
+            <div class="st-dropdown-bg">
+                <div class="st-alt-bg"></div>
+            </div>
+            <div class="st-dropdown-arrow"></div>
+            <div class="st-dropdown-container">
+                <div class="st-dropdown-section" data-dropdown="pages">
+                    <div class="st-dropdown-content">
+                        <div class="st-dropdown-content-group">
+                            <div class="mb-4">
+                                <!--h3 class="text-darker light text-nowrap"><span class="bold regular">Páginas</span> úteis</h3>
+                                <p class="text-secondary mt-0">Talvez aqui você encontre tudo que precisa</p-->
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <ul>
+                                        <li>
+                                            <h4 class="text-uppercase regular">Extra</h4>
+                                        </li>
+                                        <li><a target="_blank" href="pricing.html">Categorias</a></li>
+                                        <li><a target="_blank" href="terms.html">Termos de Uso</a></li>
+                                        <li><a target="_blank" href="faqs.html">FAQ</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="st-dropdown-content-group"><a class="dropdown-item bold" href="about.html"><i class="far fa-building icon"></i> Sobre </a><a class="dropdown-item bold" href="contact.html"><i class="far fa-envelope icon"></i> Contato </a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <main class="position-relative overflow-hidden">
+        <!-- ./Page header -->
+        <header class="page header text-contrast overlay alpha-8 image-background cover gradient gradient-purple-blue" style="background-image: url('img/bg/waves.jpg')">
+            <div class="divider-shape">
+                <!-- waves divider --><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none" class="shape-waves" style="left: 0; transform: rotate3d(0,1,0,180deg);"><path class="shape-fill shape-fill-contrast" d="M790.5,93.1c-59.3-5.3-116.8-18-192.6-50c-29.6-12.7-76.9-31-100.5-35.9c-23.6-4.9-52.6-7.8-75.5-5.3c-10.2,1.1-22.6,1.4-50.1,7.4c-27.2,6.3-58.2,16.6-79.4,24.7c-41.3,15.9-94.9,21.9-134,22.6C72,58.2,0,25.8,0,25.8V100h1000V65.3c0,0-51.5,19.4-106.2,25.7C839.5,97,814.1,95.2,790.5,93.1z"/></svg></div>
+            <div class="container" style="">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h1 class="regular display-4 text-contrast mb-4">Sobre</h1>
+                        <p class="lead text-contrast">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- ./Overview - Floating boxes -->
+        <section class="section overview">
+            <div class="container">
+                <div class="row align-items-center gap-y">
+                    <div class="col-lg-5 mr-auto text-center text-md-left">
+                        <div class="section-heading">
+                            <p class="badge badge-success bold">Succeed with DashCore</p>
+                            <h2>The new way to showcase your Startup</h2>
+                            <p class="lead text-secondary">DashCore is a Bootstrap 4 HTML template. Designed to help you promote your solution in an easy and beautiful way.</p>
+                        </div>
+                        <p>It includes multiple components and pre-made demos ready for you to personalize according to your own needs. DashCore includes a ready-to-go Admin Dashboard with many out-of-the-box features.</p>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="row gap-y">
+                            <div class="col-6 col-sm-5 col-md-6 mt-6 ml-lg-auto">
+                                <div class="card rounded p-2 p-sm-4 shadow text-center text-md-left" data-aos="fade-up"><i data-feather="calendar" width="36" height="36" class="stroke-primary"></i>
+                                    <p class="bold mb-0">Calendar</p>
+                                    <p class="op-7 small">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi at, cumque dolores dolorum est.</p>
+                                </div>
+                            </div>
+                            <div class="col-6 col-sm-5 col-md-6 mr-lg-auto">
+                                <div class="text-contrast bg-info-gradient card rounded p-2 p-sm-4 shadow text-center text-md-left" data-aos="fade-up"><i data-feather="bar-chart" width="36" height="36" class=""></i>
+                                    <p class="bold mb-0">Dashboard</p>
+                                    <p class="op-7 small">Cupiditate debitis delectus dolor dolore doloremque, doloribus eveniet illo in labore neque.</p>
+                                </div>
+                            </div>
+                            <div class="col-6 col-sm-5 col-md-6 ml-lg-auto">
+                                <div class="card rounded p-2 p-sm-4 shadow text-center text-md-left" data-aos="fade-up"><i data-feather="mail" width="36" height="36" class="stroke-primary"></i>
+                                    <p class="bold mb-0">Inbox</p>
+                                    <p class="op-7 small">Amet aperiam cumque delectus eligendi, esse, modi nemo nisi officiis rem repellat sed ulla.</p>
+                                </div>
+                            </div>
+                            <div class="col-6 col-sm-5 col-md-6 mt-n6 mr-lg-auto">
+                                <div class="card rounded p-2 p-sm-4 shadow text-center text-md-left" data-aos="fade-up"><i data-feather="clipboard" width="36" height="36" class="stroke-primary"></i>
+                                    <p class="bold mb-0">Invoicing</p>
+                                    <p class="op-7 small">Ad aliquam dicta, eaque eos iusto totam velit. Amet atque dolorum eaque ipsa sed. Aliquid cupiditate.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ./Video -->
+        <section class="section">
+            <div class="container bring-to-front">
+                <div class="shadow rounded text-center overlay overlay-dark alpha-8 text-contrast p-5 image-background cover" style="background-image: url(https://picsum.photos/350/200/?random&amp;gravity=south)">
+                    <div class="content">
+                        <div class="section-heading">
+                            <h2 class="text-contrast">Discover how DashCore works</h2>
+                        </div>
+                        <p class="handwritten highlight font-md">Play the video</p><a href="https://www.youtube.com/watch?v=MXghcI8hcWU" class="modal-popup mfp-iframe btn btn-circle btn-lg btn-primary" data-effect="mfp-fade"><i data-feather="play" width="36" height="36" stroke-width="1" class="ml-2"></i></a></div>
+                </div>
+            </div>
+        </section>
+        <!-- ./Dashboard Included -->
+        <section class="section bg-light edge top-left">
+            <div class="container bring-to-front">
+                <div class="section-heading text-center">
+                    <h2>A solution for every need</h2>
+                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aperiam atque dicta dignissimos eius excepturi fuga laudantium libero nam nihil, obcaecati pariatur quaerat quam, quia quisquam repudiandae sed tenetur veniam!</p>
+                </div>
+                <div class="row align-items-center gap-y">
+                    <div class="col-md-6 col-lg-5 text-center text-md-left">
+                        <ul class="list-unstyled">
+                            <li class="media d-block d-lg-flex"><i data-feather="box" width="36" height="36" class="stroke-primary mr-3 text-lg-right"></i>
+                                <div class="media-body mt-3 mt-lg-0 text-center text-md-left">
+                                    <h5 class="bold text-darker">Full Code</h5>
+                                    <p class="mt-0 mb-5">DashCore comes with fully documented HTML, SASS, JS, PHP code, all in a well organized and structured way.</p>
+                                </div>
+                            </li>
+                            <li class="media d-block d-lg-flex"><i data-feather="settings" width="36" height="36" class="stroke-primary mr-3 text-lg-right"></i>
+                                <div class="media-body mt-3 mt-lg-0 text-center text-md-left">
+                                    <h5 class="bold text-darker">Free Updates</h5>
+                                    <p class="mt-0 mb-5">You&#39;ll get lifetime free updates as we improve or add new features.</p>
+                                </div>
+                            </li>
+                            <li class="media d-block d-lg-flex"><i data-feather="award" width="36" height="36" class="stroke-primary mr-3 text-lg-right"></i>
+                                <div class="media-body mt-3 mt-lg-0 text-center text-md-left">
+                                    <h5 class="bold text-darker">Premium Support</h5>
+                                    <p class="mt-0">In case you need it, We got you covered, with our premium quality fast support service.</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 col-lg-5 ml-md-auto">
+                        <div class="shadow card">
+                            <div class="card-header overlay gradient gradient-blue-purple alpha-5 image-background cover" style="background-image: url(img/screens/dash/4.png)">
+                                <div class="content">
+                                    <h2 class="mt-9 text-contrast light">Dashboard Included</h2>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <p>Our template is packed with a <span class="bold">Starter Admin Dashboard</span> to help you get started right away with your project. You'll have not a beautiful HTML template to promote your product but a starting point
+                                    admin template</p><a href="admin/index.html" class="btn btn-primary btn-rounded mt-4">Try the Dashboard</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ./Counters -->
+        <section class="bg-contrast edge top-left">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-4 col-md-3 text-center"><i data-feather="box" class="stroke-primary" width="36" height="36"></i>
+                        <p class="counter bold text-darker font-md mt-0">273</p>
+                        <p class="text-secondary m-0">Components</p>
+                    </div>
+                    <div class="col-xs-4 col-md-3 text-center"><i data-feather="download-cloud" class="stroke-primary" width="36" height="36"></i>
+                        <p class="counter bold text-darker font-md mt-0">654</p>
+                        <p class="text-secondary m-0">Downloads</p>
+                    </div>
+                    <div class="col-xs-4 col-md-3 text-center"><i data-feather="settings" class="stroke-primary" width="36" height="36"></i>
+                        <p class="counter bold text-darker font-md mt-0">7941</p>
+                        <p class="text-secondary m-0">Followers</p>
+                    </div>
+                    <div class="col-xs-4 col-md-3 text-center"><i data-feather="award" class="stroke-primary" width="36" height="36"></i>
+                        <p class="counter bold text-darker font-md mt-0">654</p>
+                        <p class="text-secondary m-0">New users</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ./Features - Boxed -->
+        <section class="section features bg-light-gradient">
+            <div class="container">
+                <div class="section-heading text-center">
+                    <h2>Our features stack</h2>
+                    <p class="lead text-secondary">Take the control of your web with DashCore. You can customize the theme according to your needs or just use the ready-to-use content we made for you</p>
+                </div>
+                <div class="row gap-y">
+                    <div class="col-md-3">
+                        <div class="shadow-box shadow-hover border-0 card">
+                            <div class="card-body text-center"><i data-feather="phone" class="stroke-primary" width="36" height="36"></i>
+                                <p class="mb-0">Responsive</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="shadow-box shadow-hover border-0 card">
+                            <div class="card-body text-center"><i data-feather="settings" class="stroke-primary" width="36" height="36"></i>
+                                <p class="mb-0">Customizable</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="shadow-box shadow-hover border-0 card">
+                            <div class="card-body text-center"><i data-feather="award" class="stroke-primary" width="36" height="36"></i>
+                                <p class="mb-0">Clean Code</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="shadow-box shadow-hover border-0 card">
+                            <div class="card-body text-center"><i data-feather="star" class="stroke-primary" width="36" height="36"></i>
+                                <p class="mb-0">Creative</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="shadow-box shadow-hover border-0 card">
+                            <div class="card-body text-center"><i data-feather="send" class="stroke-primary" width="36" height="36"></i>
+                                <p class="mb-0">Ready-Content</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="shadow-box shadow-hover border-0 card">
+                            <div class="card-body text-center"><i data-feather="headphones" class="stroke-primary" width="36" height="36"></i>
+                                <p class="mb-0">Supported</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="shadow-box shadow-hover border-0 card">
+                            <div class="card-body text-center"><i data-feather="hard-drive" class="stroke-primary" width="36" height="36"></i>
+                                <p class="mb-0">Documented</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="shadow-box shadow-hover border-0 card">
+                            <div class="card-body text-center"><i data-feather="box" class="stroke-primary" width="36" height="36"></i>
+                                <p class="mb-0">Components</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ./Customers -->
+        <section class="section bg-contrast edge bottom-right">
+            <div class="container">
+                <div class="section-heading text-center">
+                    <h2>Third party integration</h2>
+                    <p class="text-secondary lead">We use the latest trends because you deserve better</p>
+                </div>
+                <ul class="list-unstyled d-flex flex-wrap justify-content-around">
+                    <li data-aos-easing="ease-in-out-cubic" data-aos="fade-right" data-aos-delay="0" class="shadow-box bg-light rounded-circle icon-xxl image-background contain mt-6" style="background-image: url(img/logos/1.png)"></li>
+                    <li data-aos-easing="ease-in-out-cubic" data-aos="fade-down-right" data-aos-delay="100" class="shadow-box bg-light rounded-circle icon-xxl image-background contain mt-4" style="background-image: url(img/logos/2.png)"></li>
+                    <li data-aos-easing="ease-in-out-cubic" data-aos="fade-up-right" data-aos-delay="200" class="shadow-box bg-light rounded-circle icon-xxl image-background contain mt-5" style="background-image: url(img/logos/3.png)"></li>
+                    <li data-aos-easing="ease-in-out-cubic" data-aos="fade-up" data-aos-delay="300" class="shadow-box bg-light rounded-circle icon-xxl image-background contain mt-6" style="background-image: url(img/logos/4.png)"></li>
+                    <li data-aos-easing="ease-in-out-cubic" data-aos="fade-down-left" data-aos-delay="400" class="shadow-box bg-light rounded-circle icon-xxl image-background contain mt-4" style="background-image: url(img/logos/5.png)"></li>
+                    <li data-aos-easing="ease-in-out-cubic" data-aos="fade-up-left" data-aos-delay="0" class="shadow-box bg-light rounded-circle icon-xxl image-background contain mt-5" style="background-image: url(img/logos/1.png)"></li>
+                    <li data-aos-easing="ease-in-out-cubic" data-aos="fade-left" data-aos-delay="100" class="shadow-box bg-light rounded-circle icon-xxl image-background contain mt-6" style="background-image: url(img/logos/2.png)"></li>
+                </ul>
+
+            </div>
+        </section>
+        <!-- ./Team -->
+        <section class="section bg-light">
+            <div class="container bring-to-front pt-0 pb-5">
+                <div class="section-heading text-center">
+                    <h2>Get to know our team</h2>
+                    <p class="lead text-secondary">These amazing people have made possible to stay where we are</p>
+                </div>
+                <!-- sm: 576px, md: 768px,-->
+                <div class="swiper-container pb-5" data-sw-centered-slides="false" data-sw-show-items="2" data-sw-space-between="30" data-sw-breakpoints='{"576": {"slidesPerView": 1, "spaceBetween": 10, "slidesPerGroup": 1}}'>
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="card shadow">
+                                <div class="container-fluid py-0">
+                                    <div class="row">
+                                        <div class="col-md-5 py-9 py-sm-7 overlay overlay-dark alpha-2 image-background cover center-top" style="background-image: url(img/avatar/team/1.jpg)"></div>
+                                        <div class="col-md-7">
+                                            <div class="p-4">
+                                                <h6 class="bold font-l">Rafael Freeman</h6>
+                                                <p class="small mt-0 text-primary text-uppercase mb-5">Founder &amp; CEO</p>
+                                                <blockquote class="team-quote pt-1"><i class="quote fas fa-quote-left"></i>
+                                                    <p class="italic pl-4">Long time ago, this guy started it all.</p>
+                                                </blockquote>
+                                                <hr class="w-25 mt-5">
+                                                <nav class="nav"><a href="javascript:;" class="nav-item nav-link pb-0"><i class="fab fa-facebook text-secondary"></i> </a><a href="javascript:;" class="nav-item nav-link pb-0"><i class="fab fa-twitter text-secondary"></i> </a>
+                                                    <a href="javascript:;" class="nav-item nav-link pb-0"><i class="fab fa-dribbble text-secondary"></i></a>
+                                                </nav>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card shadow">
+                                <div class="container-fluid py-0">
+                                    <div class="row">
+                                        <div class="col-md-5 py-9 py-sm-7 overlay overlay-dark alpha-2 image-background cover center-top" style="background-image: url(img/avatar/team/2.jpg)"></div>
+                                        <div class="col-md-7">
+                                            <div class="p-4">
+                                                <h6 class="bold font-l">Aline De Souza</h6>
+                                                <p class="small mt-0 text-primary text-uppercase mb-5">Marketing Director</p>
+                                                <blockquote class="team-quote pt-1"><i class="quote fas fa-quote-left"></i>
+                                                    <p class="italic pl-4">The girl that influences our products.</p>
+                                                </blockquote>
+                                                <hr class="w-25 mt-5">
+                                                <nav class="nav"><a href="javascript:;" class="nav-item nav-link pb-0"><i class="fab fa-facebook text-secondary"></i> </a><a href="javascript:;" class="nav-item nav-link pb-0"><i class="fab fa-twitter text-secondary"></i> </a>
+                                                    <a href="javascript:;" class="nav-item nav-link pb-0"><i class="fab fa-dribbble text-secondary"></i></a>
+                                                </nav>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card shadow">
+                                <div class="container-fluid py-0">
+                                    <div class="row">
+                                        <div class="col-md-5 py-9 py-sm-7 overlay overlay-dark alpha-2 image-background cover center-top" style="background-image: url(img/avatar/team/3.jpg)"></div>
+                                        <div class="col-md-7">
+                                            <div class="p-4">
+                                                <h6 class="bold font-l">Jayden Gardner</h6>
+                                                <p class="small mt-0 text-primary text-uppercase mb-5">Account Manager</p>
+                                                <blockquote class="team-quote pt-1"><i class="quote fas fa-quote-left"></i>
+                                                    <p class="italic pl-4">Keeps all the numbers in place.</p>
+                                                </blockquote>
+                                                <hr class="w-25 mt-5">
+                                                <nav class="nav"><a href="javascript:;" class="nav-item nav-link pb-0"><i class="fab fa-facebook text-secondary"></i> </a><a href="javascript:;" class="nav-item nav-link pb-0"><i class="fab fa-twitter text-secondary"></i> </a>
+                                                    <a href="javascript:;" class="nav-item nav-link pb-0"><i class="fab fa-dribbble text-secondary"></i></a>
+                                                </nav>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card shadow">
+                                <div class="container-fluid py-0">
+                                    <div class="row">
+                                        <div class="col-md-5 py-9 py-sm-7 overlay overlay-dark alpha-2 image-background cover center-top" style="background-image: url(img/avatar/team/4.jpg)"></div>
+                                        <div class="col-md-7">
+                                            <div class="p-4">
+                                                <h6 class="bold font-l">Jacobi Edwards</h6>
+                                                <p class="small mt-0 text-primary text-uppercase mb-5">VP of Sales</p>
+                                                <blockquote class="team-quote pt-1"><i class="quote fas fa-quote-left"></i>
+                                                    <p class="italic pl-4">The man that leads the Global Sales team.</p>
+                                                </blockquote>
+                                                <hr class="w-25 mt-5">
+                                                <nav class="nav"><a href="javascript:;" class="nav-item nav-link pb-0"><i class="fab fa-facebook text-secondary"></i> </a><a href="javascript:;" class="nav-item nav-link pb-0"><i class="fab fa-twitter text-secondary"></i> </a>
+                                                    <a href="javascript:;" class="nav-item nav-link pb-0"><i class="fab fa-dribbble text-secondary"></i></a>
+                                                </nav>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card shadow">
+                                <div class="container-fluid py-0">
+                                    <div class="row">
+                                        <div class="col-md-5 py-9 py-sm-7 overlay overlay-dark alpha-2 image-background cover center-top" style="background-image: url(img/avatar/team/5.jpg)"></div>
+                                        <div class="col-md-7">
+                                            <div class="p-4">
+                                                <h6 class="bold font-l">Allison Fernandez</h6>
+                                                <p class="small mt-0 text-primary text-uppercase mb-5">Client Support</p>
+                                                <blockquote class="team-quote pt-1"><i class="quote fas fa-quote-left"></i>
+                                                    <p class="italic pl-4">Need any assistance with the product?</p>
+                                                </blockquote>
+                                                <hr class="w-25 mt-5">
+                                                <nav class="nav"><a href="javascript:;" class="nav-item nav-link pb-0"><i class="fab fa-facebook text-secondary"></i> </a><a href="javascript:;" class="nav-item nav-link pb-0"><i class="fab fa-twitter text-secondary"></i> </a>
+                                                    <a href="javascript:;" class="nav-item nav-link pb-0"><i class="fab fa-dribbble text-secondary"></i></a>
+                                                </nav>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card shadow">
+                                <div class="container-fluid py-0">
+                                    <div class="row">
+                                        <div class="col-md-5 py-9 py-sm-7 overlay overlay-dark alpha-2 image-background cover center-top" style="background-image: url(img/avatar/team/6.jpg)"></div>
+                                        <div class="col-md-7">
+                                            <div class="p-4">
+                                                <h6 class="bold font-l">Richard Smith</h6>
+                                                <p class="small mt-0 text-primary text-uppercase mb-5">Lead Developer</p>
+                                                <blockquote class="team-quote pt-1"><i class="quote fas fa-quote-left"></i>
+                                                    <p class="italic pl-4">Geek, manager, and manager of geeks.</p>
+                                                </blockquote>
+                                                <hr class="w-25 mt-5">
+                                                <nav class="nav"><a href="javascript:;" class="nav-item nav-link pb-0"><i class="fab fa-facebook text-secondary"></i> </a><a href="javascript:;" class="nav-item nav-link pb-0"><i class="fab fa-twitter text-secondary"></i> </a>
+                                                    <a href="javascript:;" class="nav-item nav-link pb-0"><i class="fab fa-dribbble text-secondary"></i></a>
+                                                </nav>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Add Arrows -->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- ./Footer - Four Columns -->
+        <footer class="footer" style="background-color:#1f1f1f !important">
+            <div class="footer-copyright footer-copyright-style-2" style="padding: 24px; ">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div>
+                            <div class="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".3s">
+
+                                <a href="https://www.serradev.com.br" target="blank">
+                                    <img src="img/logoteste.png" height="50px" width="240px " alt="Agradecemos a Breno cocheto, etc... pela contribuição no projeto">
+                                </a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr style="margin:0px!important; background: #aee8f92b !important; border-top: 0px !important;">
+            <div class="copy-right_text" style="background-color:#1f1f1f;">
+                <div class="container">
+                    <div class="footer_border"></div>
+                    <div class="row" style="text-align: center;">
+                        <div class="col-xl-8 m-auto" style="color:white;padding: 22px;">
+                            <span style="font-size: 1rem">© <a href="https://serradev.com.br/" target="_blank" style="color:white;"><strong>Fala Dev!</strong></a> Copyright 2020. Todos os
+							direitos reservados.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </main>
+    <script src="js/lib.min.js"></script>
+    <script src="js/dashcore.min.js"></script>
+    <!-- endinject -->
+</body>
+<!-- Mirrored from 5studios.net/themes/dashcore/about.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 May 2020 19:17:30 GMT -->
+
+</html>
