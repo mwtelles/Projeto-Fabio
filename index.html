@@ -9,8 +9,8 @@
 
     <link rel="apple-touch-icon" href="apple-touch-icon.html">
     <link rel="icon" href="favicon.ico">
-    <link href="../../../fonts.googleapis.com/css2c38.css?family=Poppins:100,300,400,700,900" rel="stylesheet">
-    <link href="../../../fonts.googleapis.com/css8f23.css?family=Caveat" rel="stylesheet">
+    <link href="fonts.googleapis.com/css2c38.css?family=Poppins:100,300,400,700,900" rel="stylesheet">
+    <link href="fonts.googleapis.com/css8f23.css?family=Caveat" rel="stylesheet">
     <title>Fala Dev - Plataforma para Desenvolvedores</title>
 
     <link rel="stylesheet" href="css/vendor.min.css">
@@ -354,7 +354,7 @@ var autoprefixer = require('gulp-autoprefixer');
 
 gulp.task('sass', function () {
     return gulp
-        .src('../sass/*.scss')
+        .src('sass/*.scss')
         .pipe(sass({
             includePaths: ['./bower_components']
         }))
