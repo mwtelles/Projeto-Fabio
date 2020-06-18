@@ -1,7 +1,5 @@
 <!doctype html>
 <html lang="en">
-<!-- Mirrored from 5studios.net/themes/dashcore/terms.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 May 2020 19:17:40 GMT -->
-
 <head>
     <meta charset="utf-8">
     <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge" /><![endif]-->
@@ -23,20 +21,80 @@
     <!--[if lt IE 8]>
 <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
 <![endif]-->
-    <!-- ./Main Navigation -->
-    <nav class="navbar navbar-expand-md main-nav navigation dark-link sidebar-left" id="main-nav">
-        <div class="container"><button class="navbar-toggler" type="button"><span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button>
-            <a href="#main" class="navbar-brand"><img src="img/logoteste.png" alt="FalaDev" class="logo logo-sticky d-block d-md-none"> <img src="img/logoteste.png" alt="Fala Dev" class="logo d-none d-md-block"></a>
-            <div class="collapse navbar-collapse ml-auto" id="main-navbar">
-                <div class="sidebar-brand">
-                    <a href="index.html"><img src="img/logoteste.png" alt="Fala Dev" class="logo"></a>
-                </div>
-                <ul class="nav navbar-nav mr-auto">
-                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+    <!-- Making stripe menu -->
+    <nav class="st-nav navbar main-nav navigation fixed-top" id="main-nav">
+        <div class="container">
+            <ul class="st-nav-menu nav navbar-nav">
+                <li class="st-nav-section nav-item">
+                    <a href="#main" class="navbar-brand"><img src="img/logos/DEVON-GR.png" alt="Dashcore"
+                            class="logo logo-sticky d-block d-md-none"> <img src="img/logos/DEVLOGO-W.png"alt="Dashcore"
+                            class="logo d-none d-md-block"></a>
+                </li>
+                <li class="st-nav-section st-nav-primary nav-item"><a class="st-root-link nav-link"
+                        href="index.html">Inicio </a><a class="st-root-link item-products st-has-dropdown nav-link"
+                        data-dropdown="pages">Paginas </a>
+                <li class="st-nav-section st-nav-primary nav-item"><a class="st-root-link nav-link"
+                        href="blog-grid.html">Blog </a></li>
+                <!--li class="st-nav-section st-nav-secondary nav-item"><a class="btn btn-rounded btn-outline mr-3 px-3" href="login.html" target="_blank"><i class="fas fa-sign-in-alt d-none d-md-inline mr-md-0 mr-lg-2"></i> <span class="d-md-none d-lg-inline">Login</span> </a><a class="btn btn-rounded btn-solid px-3"
+                            href="signup.html" target="_blank"><i class="fas fa-user-plus d-none d-md-inline mr-md-0 mr-lg-2"></i> <span class="d-md-none d-lg-inline">Registrar</span></a></li-->
 
-                </ul>
-                <nav class="nav navbar-nav ml-md-auto justify-content-center mt-4 mt-md-0 flex-row"><a class="btn btn-rounded btn-outline mr-3 px-3" href="login.html" target="_blank"><i class="fas fa-sign-in-alt d-none d-md-inline mr-md-0 mr-lg-2"></i> <span class="d-md-none d-lg-inline">Login</span> </a><a class="btn btn-rounded btn-solid px-3"
-                        href="signup.html" target="_blank"><i class="fas fa-user-plus d-none d-md-inline mr-md-0 mr-lg-2"></i> <span class="d-md-none d-lg-inline">Registrar</span></a></nav>
+
+                <!-- Mobile Navigation -->
+                <li class="st-nav-section st-nav-mobile nav-item"><button class="st-root-link navbar-toggler"
+                        type="button"><span class="icon-bar"></span> <span class="icon-bar"></span> <span
+                            class="icon-bar"></span></button>
+                    <div class="st-popup">
+                        <div class="st-popup-container"><a class="st-popup-close-button">Fechar</a>
+                            <div class="st-dropdown-content-group">
+                                <h4 class="text-uppercase regular">Paginas</h4><a class="regular text-primary"
+                                    href="about.html"><i class="far fa-building mr-2"></i> Sobre </a><a
+                                    class="regular text-success" href="contact.html"><i
+                                        class="far fa-envelope mr-2"></i> Contato </a></a>
+                                <a class="regular text-info" href="faqs.html"><i
+                                        class="far fa-question-circle mr-2"></i> FAQs</a>
+                            </div>
+                            <div class="st-dropdown-content-group bg-light b-t"><a href="login.html">Login <i
+                                        class="fas fa-arrow-right"></i></a></div>
+                            <div class="st-dropdown-content-group bg-light b-t"><a href="register.html">Registrar <i
+                                        class="fas fa-arrow-right"></i></a></div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="st-dropdown-root">
+            <div class="st-dropdown-bg">
+                <div class="st-alt-bg"></div>
+            </div>
+            <div class="st-dropdown-arrow"></div>
+            <div class="st-dropdown-container">
+                <div class="st-dropdown-section" data-dropdown="pages">
+                    <div class="st-dropdown-content">
+                        <div class="st-dropdown-content-group">
+                            <div class="mb-4">
+                                <!--h3 class="text-darker light text-nowrap"><span class="bold regular">Páginas</span> úteis</h3>
+                                <p class="text-secondary mt-0">Talvez aqui você encontre tudo que precisa</p-->
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <ul>
+                                        <li>
+                                            <h4 class="text-uppercase regular">Extra</h4>
+                                        </li>
+                                        
+                                        <li><a target="_blank" href="terms.html">Termos de Uso</a></li>
+                                        <li><a target="_blank" href="faqs.html">FAQ</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="st-dropdown-content-group"><a class="dropdown-item bold" href="about.html"><i
+                                    class="far fa-building icon"></i> Sobre </a><a class="dropdown-item bold"
+                                href="contact.html"><i class="far fa-envelope icon"></i> Contato </a>
+
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </nav>
@@ -44,13 +102,12 @@
         <section class="section terms">
             <div class="container pt-md-9">
                 <h1>Fala Dev - Termos de uso</h1>
-                <p class="text-secondary small bold">Data: </p>
+                <p class="text-secondary small bold">Data: 18/06/2020</p>
                 <hr class="my-4">
                 <p class="bold">Seja Bem-Vindo Dev</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A beatae ea eius facilis molestiae natus nemo nihil, nostrum possimus, quaerat qui repudiandae similique ullam. Eos id iure nam quam rerum. Lorem ipsum dolor sit amet, consectetur
-                    adipisicing elit.</p>
-                <p class="text-uppercase mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, aliquam amet aspernatur at delectus dicta dignissimos esse excepturi facilis in ipsum laboriosam minima officiis quae quibusdam quos rem vero voluptatibus!</p>
-                <h3>1. General Terms</h3>
+                <p>Essa página tem o intuito de informar os termos de uso da nossa plataforma de aprendizado.</p>
+                <p class="text-uppercase mb-5">É extremamente importante freezar que a plataforma não possui fins lucrativos até o dado momento!</p>
+                <h3>1. Termos Gerais</h3>
                 <p class="bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A beatae ea eius facilis molestiae natus nemo nihil, nostrum possimus, quaerat qui repudiandae similique ullam. Eos id iure nam quam rerum. Lorem ipsum dolor sit amet, consectetur
                     adipisicing elit. Asperiores autem doloremque fuga quisquam! Blanditiis cupiditate dicta, explicabo fugit hic iure nihil non odio praesentium qui quidem quos, repudiandae sapiente ut. Lorem ipsum dolor sit amet, consectetur adipisicing
                     elit. Laudantium praesentium quam voluptatum! Aliquam, animi culpa, delectus deleniti, doloribus facere in inventore officia porro repellat reprehenderit similique temporibus unde. Aut, eveniet!</p>
@@ -58,21 +115,21 @@
                     sit amet, consectetur adipisicing elit. Atque eos impedit quisquam reprehenderit temporibus. Atque consectetur cum delectus dolores est exercitationem, fugit minus, mollitia neque, non perspiciatis quam suscipit vitae. Lorem ipsum
                     dolor sit amet, consectetur adipisicing elit. At debitis deleniti facere fuga iure maxime nihil obcaecati perferendis perspiciatis quo, rem ut voluptas voluptate? A aspernatur exercitationem harum natus quasi? Lorem ipsum dolor sit
                     amet, consectetur adipisicing elit. Accusantium aut nobis quos rem? Adipisci amet deserunt distinctio eius id illum itaque odio officiis quia sequi similique, suscipit tempora, temporibus unde?</p>
-                <h3>2. Ownership and License</h3>
+                <h3>2. Utilização do Conteúdo</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores dolor eaque exercitationem id illum iste nihil reiciendis repudiandae totam vero. Animi doloremque doloribus esse fugiat nostrum quas quod sit unde. Lorem ipsum dolor
                     sit amet, consectetur adipisicing elit. Ad aut deserunt dolorem dolorum ea, illum ipsa itaque nostrum obcaecati possimus. At eum fugiat hic illum impedit nisi quae quidem reprehenderit.</p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet fugit id laudantium, maxime molestias natus nesciunt quibusdam. A accusantium esse, eveniet magnam officiis omnis soluta temporibus. Enim non officiis voluptatibus? Lorem ipsum
                     dolor sit amet, consectetur adipisicing elit. Delectus explicabo illo nam nobis, provident quae qui quis repellat sed sunt. Dicta facilis laborum nemo non praesentium quis, ullam unde voluptatem! Lorem ipsum dolor sit amet, consectetur
                     adipisicing elit. Architecto, assumenda blanditiis cumque deserunt dicta doloribus ducimus, explicabo ipsum laudantium maiores nulla provident quod rem reprehenderit rerum sapiente soluta tempore voluptatibus.</p>
-                <h3>3. Your Account</h3>
+                <h3>3. Distribuição de Projetos</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque distinctio eaque expedita facere voluptatum. Amet aperiam debitis ipsum nesciunt! Assumenda aut beatae consequatur cumque nam neque nulla officiis quaerat quia! Lorem ipsum
                     dolor sit amet, consectetur adipisicing elit. A ab autem dolorem expedita, facere fuga hic id impedit, ipsam iste nemo nobis nostrum, obcaecati repellendus repudiandae sit unde vel veniam?Lorem ipsum dolor sit amet, consectetur adipisicing
                     elit. Architecto consequuntur cupiditate enim ex inventore iusto magni minus, nulla odio odit officia perspiciatis repellendus sed similique sit tempore totam voluptas voluptatum.</p>
-                <h3>4. No Warranties</h3>
+                <h3>4. Advertências</h3>
                 <p class="text-uppercase">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum expedita fuga natus? Eaque eius eos facere incidunt magni molestias nam nulla odio officiis quia quos, sequi ullam voluptate voluptates voluptatum. Lorem ipsum dolor sit amet,
                     consectetur adipisicing elit. Harum numquam rerum saepe? At aut culpa eligendi hic libero nesciunt praesentium vitae voluptas! Architecto distinctio itaque necessitatibus officiis quaerat quas voluptates.</p>
                 <p class="text-uppercase">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab dolores ducimus earum eos error expedita fuga impedit in incidunt inventore maiores molestiae possimus, praesentium saepe sint sunt ullam, unde veritatis!</p>
-                <h3>Confidentiality</h3>
+                <h3> Confiabilidade </h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque autem, corporis delectus eligendi et eveniet excepturi fugit ipsum iure, nesciunt odit officiis quaerat quidem quo recusandae repellendus saepe veniam voluptate? Lorem ipsum
                     dolor sit amet, consectetur adipisicing elit. At eos minima quo reiciendis sunt! A adipisci at, dolorem doloribus fuga harum, illum maxime molestiae perferendis quasi repudiandae sed similique voluptatum? Lorem ipsum dolor sit amet,
                     consectetur adipisicing elit. Adipisci amet asperiores at consequuntur corporis doloremque eaque eos excepturi exercitationem expedita, illo ipsa odio, officiis quos sit soluta tempore vel voluptatibus?</p>
