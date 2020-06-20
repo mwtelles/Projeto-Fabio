@@ -9,8 +9,8 @@
 
     <link rel="apple-touch-icon" href="apple-touch-icon.html">
     <link rel="icon" href="favicon.ico">
-    <link href="fonts.googleapis.com/css2c38.css?family=Poppins:100,300,400,700,900" rel="stylesheet">
-    <link href="fonts.googleapis.com/css8f23.css?family=Caveat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,300,400,700,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Caveat" rel="stylesheet">
     <title>Fala Dev - Plataforma para Desenvolvedores</title>
 
     <link rel="stylesheet" href="css/vendor.min.css">
@@ -276,17 +276,17 @@
                                 <div class="swiper-slide">
                                     <figure class="shadow-box"><img src="img/screens/dash/inbox.png" alt=""
                                             class="img-responsive rounded"></figure>
-                                    <p class="small text-center text-danger">Clean inbox UI design</p>
+                                    <p class="small text-center text-danger">Feito para o aprendizado</p>
                                 </div>
                                 <div class="swiper-slide">
                                     <figure class="shadow-box"><img src="img/screens/dash/calendar.png" alt=""
                                             class="img-responsive rounded"></figure>
-                                    <p class="small text-center text-danger">Outstanding calendar UI design</p>
+                                    <p class="small text-center text-danger">Trilha de aprendizado</p>
                                 </div>
                                 <div class="swiper-slide">
                                     <figure class="shadow-box"><img src="img/screens/dash/invoice.png" alt=""
                                             class="img-responsive rounded"></figure>
-                                    <p class="small text-center text-danger">Draft purchases with the invoice feature
+                                    <p class="small text-center text-danger">Chat para alunos
                                     </p>
                                 </div>
                             </div>
@@ -308,13 +308,11 @@
                     <div class="col-md-4 col-lg-3 ml-lg-auto order-md-2">
                         <nav id="sw-nav-developers"
                             class="nav flex-md-column justify-content-between justify-content-md-start nav-pills nav-pills-light nav-fill">
-                            <a class="nav-item nav-link bold text-md-left active" href="#" data-step="1"><i
-                                    class="icon fab fa-python"></i> Python </a> <a
-                                class="nav-item nav-link bold text-md-left" href="#" data-step="2"><i
-                                    class="icon fas fa-code"></i> HTML </a> <a
-                                class="nav-item nav-link bold text-md-left" href="#" data-step="3"><i
-                                    class="icon fab fa-php"></i> PHP </a> <a class="nav-item nav-link bold text-md-left"
-                                href="#" data-step="4"><i class="icon fab fa-react"></i> React </a></nav>
+                            <a class="nav-item nav-link bold text-md-left active" href="#" data-step="1"><i class="icon fab fa-python"></i> Python </a> 
+                            <a class="nav-item nav-link bold text-md-left" href="#" data-step="2"><i class="icon fas fa-code"></i> HTML </a> 
+                            <!--a class="nav-item nav-link bold text-md-left" href="#" data-step="3"><i class="icon fab fa-php"></i> PHP </a> 
+                            <a class="nav-item nav-link bold text-md-left" href="#" data-step="4"><i class="icon fab fa-react"></i> React </a-->
+                        </nav>
                         <hr class="mt-5"><a href="javascript:;" class="nav-link text-primary">Todos os recursos <i
                                 class="icon fas fa-long-arrow-alt-right"></i></a>
                     </div>
@@ -322,52 +320,52 @@
                         <div class="swiper-container mt-4 mt-md-0" data-sw-navigation="#sw-nav-developers">
                             <div class="swiper-wrapper line-numbers">
                                 <div class="swiper-slide">
-                                    <pre class="language-html">                            <code>
+                                    <pre class="language-javascript">
+                                        <code>
+def print_helloWorld(lista):
+    lista = []
+    if lista:
+        for item in lista:
+            if item not in lista2:
+                lista2.append(item)
+    else:
+        return lista
+    return lista2
+    print remove_duplicates([1,2,3,3])
+                                        </code>
+                                    </pre>
+                                </div>
+                                <div class="swiper-slide">
+                                    <pre class="language-html">
+                                        <code>
 &lt;header class="main-header"&gt;
     ...
 &lt;/header&gt;
-
+                                        
 &lt;div class="main-body"&gt;
     &lt;nav class="side-nav"&gt;
         ...
     &lt;/div&gt;
-
+                                        
     &lt;main&gt;
         ...
     &lt;/main&gt;
-
+                                        
     &lt;aside class="quick-view"&gt;
         ...
     &lt;/div&gt;
 &lt;/div&gt;
-
+                                        
 &lt;footer class="main-footer"&gt;
     ...
-&lt;/footer&gt;</code>
-            </pre>
+&lt;/footer&gt;
+                                        </code>
+                                    </pre>
                                 </div>
+<!--                               
                                 <div class="swiper-slide">
-                                    <pre class="language-javascript">                            <code>
-var gulp = require('gulp');
-var sass = require('gulp-sass');
-var autoprefixer = require('gulp-autoprefixer');
-
-gulp.task('sass', function () {
-    return gulp
-        .src('sass/*.scss')
-        .pipe(sass({
-            includePaths: ['./bower_components']
-        }))
-        .pipe(autoprefixer({
-            browsers: ['last 2 version', '> 5%']
-        }))
-        .pipe(gulp.dest('./css'));
-});
-
-gulp.task('default', ['scss']);</code></pre>
-                                </div>
-                                <div class="swiper-slide">
-                                    <pre class="language-javascript">                            <code>
+                                    <pre class="language-javascript">
+                                        <code>
 var apiUrl = 'https://api.5studios.net/';
 
 this.getLoggedUser = function() {
@@ -381,28 +379,33 @@ this.getPendingTasks = function () {
     return $.getJSON(apiUrl + 'data/tasks/pending', function() {
         console.log("Tasks loaded");
     });
-};</code>
-</pre>
+};
+                                        </code>
+                                    </pre>
                                 </div>
                                 <div class="swiper-slide">
-                                    <pre class="language-javascript">                            <code>
+                                    <pre class="language-javascript">
+                                        <code>
 $("#register-form").validate({
-  rules: {
-    username: {
-      required: true,
-      minLength: 2,
-      remote: "register.php"
-    }
-  },
-  messages: {
-    username: {
-      required: "Enter your username",
-      minLength: "At least 2 characters are necessary",
-      remote: String.format("The name {0} is already in use")
-    }
-  }
-});</code></pre>
+rules: {
+username: {
+required: true,
+minLength: 2,
+remote: "register.php"
+}
+},
+messages: {
+username: {
+required: "Enter your username",
+minLength: "At least 2 characters are necessary",
+remote: String.format("The name {0} is already in use")
+}
+}
+});
+                                        </code>
+                                    </pre>
                                 </div>
+                            -->
                             </div>
                         </div>
                     </div>
@@ -414,16 +417,17 @@ $("#register-form").validate({
             <div class="container">
                 <h4 class="bold text-center mb-5 text-secondary">Nossos Apoiadores</h4>
                 <div class="row gap-y">
-                    <div class="col-md-3 col-xs-4 col-6 px-md-5">
+                    <div class="col-md-6 col-xs-6 col-6 px-md-6">
                         <a href="https://www.w3schools.com" target="_blank">
                             <img src="img/serra.png" alt="" class="img-responsive mx-auto op-7" style="max-height: 70px;">
                         </a>
                     </div>
-                    <div class="col-md-3 col-xs-4 col-6 px-md-5">
+                    <div class="col-md-6 col-xs-6 col-6 px-md-6">
                         <a href="https://universidadedevassouras.edu.br" target="_blank">
                         <img src="img/universidade.png" alt="" class="img-responsive mx-auto op-7" style="max-height: 70px;">
                         </a>
                     </div>
+                    <!--
                     <div class="col-md-3 col-xs-4 col-6 px-md-5">
                         <a href="https://www.w3schools.com" target="_blank">
                         <img src="img/logos/3.png" alt="" class="img-responsive mx-auto op-7" style="max-height: 70px;">
@@ -434,6 +438,17 @@ $("#register-form").validate({
                         <img src="img/logos/4.png" alt="" class="img-responsive mx-auto op-7" style="max-height: 70px;">
                         </a>
                     </div>
+                </div>
+            </div>
+                    -->
+        </section>
+        <section class="section bg-contrast">
+            <div class="container pt-5">
+                <div class="d-flex align-items-center flex-column flex-md-row">
+                    <div class="text-center text-md-left">
+                        <p class="light mb-0 text-primary lead">Já conhece nosso aplicativo?</p>
+                        <h2 class="mt-0">Acesse ele agora direto do seu dispositivo</h2>
+                    </div><a href="https://github.com/bcocheto/app-estudo" target="_blank" class="btn btn-primary btn-rounded mt-3 mt-md-0 ml-md-auto">Acessar Aplicativo</a>
                 </div>
             </div>
         </section>
